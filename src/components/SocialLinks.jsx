@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: 'https://linkedin.com/in/krisna-colindres',
+      href: "https://linkedin.com/in/krisna-colindres",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: 'https://github.com/kcolindres',
+      href: "https://github.com/kcolindres",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: 'mailto:krishnadamodara10@gmail.com',
+      href: "mailto:krishnadamodara10@gmail.com",
     },
     {
       id: 4,
