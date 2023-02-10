@@ -7,56 +7,103 @@ import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import cmasmas from "../assets/cmasmas.png";
+import java from "../assets/java.png";
+import Python from "../assets/Python.png";
+import sql from "../assets/sql.png";
+import firebase from "../assets/firebase.png";
+import Git from "../assets/Git.png";
+import spicework from "../assets/spicework.png";
 
 const Skills = () => {
+  const techs = [
+    {
+      id: 1,
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 2,
+      src: css,
+      title: "CSS",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 3,
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 4,
+      src: reactImage,
+      title: "React",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 5,
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 6,
+      src: nextjs,
+      title: "Next JS",
+      style: "shadow-white",
+    },
+    {
+      id: 7,
+      src: github,
+      title: "Github",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 8,
+      src: cmasmas,
+      title: "c++",
+      style: "shadow-blue-400 bg-darkblue",
+    },
+    {
+      id: 9,
+      src: java,
+      title: "Java",
+      style: "shadow-red-400 ",
+    },
+    {
+      id: 10,
+      src: Python,
+      title: "Python",
+      style: "shadow-yellow-300",
+    },
+    {
+      id: 11,
+      src: sql,
+      title: "SQL",
+      style: "shadow-blue-200",
+    },
+    {
+      id: 12,
+      src: firebase,
+      title: "Firebase",
+      style: "shadow-yellow-200",
+    },
+    {
+      id: 13,
+      src: Git,
+      title: "Git",
+      style: "shadow-orange-200",
+    },
+    {
+      id: 14,
+      src: spicework,
+      title: "spicework",
+      style: "shadow-orange-500",
+    },
+  ];
 
-    const techs = [
-        {
-            id: 1,
-            src: html,
-            title: 'HTML',
-            style: 'shadow-orange-500'
-        },
-        {
-            id: 2,
-            src: css,
-            title: 'CSS',
-            style: 'shadow-blue-500'
-        },
-        {
-            id: 3,
-            src: javascript,
-            title: 'JavaScript',
-            style: 'shadow-yellow-500'
-        },
-        {
-            id: 4,
-            src: reactImage,
-            title: 'React',
-            style: 'shadow-blue-600'
-        },
-        {
-            id: 5,
-            src: tailwind,
-            title: 'Tailwind',
-            style: 'shadow-sky-400'
-        },
-        {
-            id: 6,
-            src: nextjs,
-            title: 'Next JS',
-            style: 'shadow-white'
-        },
-        {
-            id: 7,
-            src: github,
-            title: "Github",
-            style: "shadow-gray-400"
-        }
-
-    ]
-
-    return (
+  return (
     <div
       name="skills"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
@@ -84,6 +131,5 @@ const Skills = () => {
     </div>
   );
 };
-
 
 export default Skills;

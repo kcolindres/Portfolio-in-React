@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import avlTree from "../assets/portfolio/avlTree.jpg";
 import mine from "../assets/portfolio/mine.jpg";
 import movie from "../assets/portfolio/movie.jpg";
