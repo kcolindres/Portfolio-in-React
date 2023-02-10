@@ -14,19 +14,21 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Hello, My name is Krisna Colindres. I am 23 years old. I was born and raised
-          in Cartago, Costa Rica. My family immigrated to the United States in 2014 when
-          I was 14. I'm a senior studying Computer Science at the University of Florida
-          and looking for cloud computing-related or web development internships, but I'm
-          open to learning about different roles since a culture fit is more important to
-          me than a role.          
+          Hello, I am Krisna Colindres, a 23-year-old computer science student
+          at the University of Florida. Born and raised in Cartago, Costa Rica,
+          I immigrated to the United States with my family in 2014 at the age of
+          14. As I near graduation, I am eager to start my career in the tech
+          industry and am currently seeking internships in cloud computing or
+          web development. However, I am open to exploring different roles and
+          industries as I believe that a good cultural fit is just as important
+          as the role itself
         </p>
         <p className="text-xl mt-20">
-          Some of my hobbies include playing soccer with my church community. Building and
-          learning about mechanical keyboards. Learning the science behind people's personalities
-          and how we interact with each other. Playing video games with friends. Going to the gym.
-          Gardening. And learning new technologies. 
-                
+          Outside of my studies, I have a range of hobbies and interests. I
+          enjoy playing soccer with my church community, building and learning
+          about mechanical keyboards, and exploring the science of personalities
+          and human interaction. I also love playing video games with friends,
+          hitting the gym, gardening, and keeping up with new technologies.
         </p>
 
         <br />
