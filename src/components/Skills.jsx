@@ -14,6 +14,10 @@ import sql from "../assets/sql.png";
 import firebase from "../assets/firebase.png";
 import Git from "../assets/Git.png";
 import spicework from "../assets/spicework.png";
+import linux from "../assets/linux.png";
+import assembly from "../assets/assembly.png";
+import Matlab from "../assets/Matlab.png";
+import R from "../assets/R.png";
 
 const Skills = () => {
   const techs = [
@@ -98,8 +102,32 @@ const Skills = () => {
     {
       id: 14,
       src: spicework,
-      title: "spicework",
+      title: "spiceworks",
       style: "shadow-orange-500",
+    },
+    {
+      id: 15,
+      src: linux,
+      title: "Linux",
+      style: "shadow-gray-500",
+    },
+    {
+      id: 16,
+      src: assembly,
+      title: "Assembly",
+      style: "shadow-green-500",
+    },
+    {
+      id: 17,
+      src: Matlab,
+      title: "matlab",
+      style: "shadow-orange-200",
+    },
+    {
+      id: 18,
+      src: R,
+      title: "R",
+      style: "shadow-blue-500",
     },
   ];
 
