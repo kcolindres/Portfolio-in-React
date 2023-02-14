@@ -8,4 +8,6 @@ npm install
 
 and then npm start
 
+might have to install npm scroll
+
 that's it
