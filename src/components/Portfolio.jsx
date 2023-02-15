@@ -19,6 +19,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: movie,
+      url: "https://github.com/kcolindres/movierecommender",
     },
     {
       id: 4,
@@ -31,6 +32,7 @@ const Portfolio = () => {
     {
       id: 6,
       src: port,
+      url: "https://github.com/kcolindres/Portfolio-in-React/tree/main/src",
     },
   ];
 
@@ -48,7 +50,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, url }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -59,9 +61,11 @@ const Portfolio = () => {
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
+                <a href={url} target="_blank" rel="noopener noreferrer">
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           ))}
