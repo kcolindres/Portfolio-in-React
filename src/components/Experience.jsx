@@ -71,7 +71,6 @@ const Experience = () => {
                     {title}, {date}
                   </span>
                 </button>
-                <a href={url} target="_blank" rel="noopener noreferrer"></a>
               </div>
             </div>
           ))}
