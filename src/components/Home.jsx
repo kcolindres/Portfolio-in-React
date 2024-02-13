@@ -15,7 +15,7 @@ const Home = () => {
             Hello, I'm a Software Engineer at VISA
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I earned an AA in engineering from{" "}
+            I earned an AA in Engineering from{" "}
             <a
               href="https://www.sfcollege.edu/number-one/"
               target="_blank"
@@ -24,7 +24,7 @@ const Home = () => {
             >
               Santa Fe College
             </a>{" "}
-            and a Bachelor of Science degree in Computer Science from the{" "}
+            and a BS in Computer Science from the{" "}
             <a
               href="https://news.warrington.ufl.edu/rankings/university-of-florida-again-ranked-no-5-among-public-universities-by-us-news-world-report/"
               target="_blank"
