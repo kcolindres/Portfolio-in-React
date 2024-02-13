@@ -15,14 +15,22 @@ const Home = () => {
             Hello, I'm a Software Engineer at VISA
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I earned a Bachelor of Science degree in Computer Science from the{" "}
+            I earned an AA in engineering from{" "}
             <a
-              href="https://www.usnews.com/best-colleges/university-of-florida-1535"
+              href="https://www.sfcollege.edu/number-one/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-white"
+            >
+              Santa Fe College
+            </a>{" "}
+            and a Bachelor of Science degree in Computer Science from the{" "}
+            <a
+              href="https://news.warrington.ufl.edu/rankings/university-of-florida-again-ranked-no-5-among-public-universities-by-us-news-world-report/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-400 hover:text-orange-400"
             >
-              {" "}
               University of Florida
             </a>{" "}
             in December 2023.
@@ -47,7 +55,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-4/5 md:w-full"
           />
         </div>
       </div>

@@ -21,7 +21,7 @@ const Experience = () => {
     {
       id: 3,
       src: graduation,
-      title: "I then graduted as first-gen",
+      title: "I then graduated as first-gen",
     },
     {
       id: 4,
@@ -53,7 +53,7 @@ const Experience = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, url, title, date }) => (
+          {portfolios.map(({ id, src, title, date }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               {src.endsWith(".mp4") ? (
                 <video
@@ -71,7 +71,10 @@ const Experience = () => {
                 />
               )}
               <div className="flex flex-col items-center justify-center">
-                <button className="w-full px-6 py-3 m-4 duration-200 hover:scale-105 overflow-hidden">
+                <button
+                  className="w-full px-6 py-3 m-4 duration-200 hover:scale-105 overflow-hidden"
+                  style={{ cursor: "auto" }} // Set cursor to auto
+                >
                   <span className="whitespace-nowrap">
                     {title} {date}
                   </span>
