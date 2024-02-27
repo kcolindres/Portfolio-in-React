@@ -75,9 +75,7 @@ const Experience = () => {
                   className="w-full px-6 py-3 m-4 duration-200 hover:scale-105 overflow-hidden"
                   style={{ cursor: "auto" }} // Set cursor to auto
                 >
-                  <span className="whitespace-nowrap">
-                    {title} {date}
-                  </span>
+                  <span className="whitespace-nowrap">{title}</span>
                 </button>
               </div>
             </div>

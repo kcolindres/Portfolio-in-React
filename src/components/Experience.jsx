@@ -11,28 +11,24 @@ const Experience = () => {
       id: 1,
       src: uf,
       title: "TA Intro SWE, Aug 2023 - Dec 2023",
-
       url: "https://www.linkedin.com/posts/krisna-colindres_i-am-happy-to-share-that-im-starting-a-new-activity-7110816112224735232-N4TD?utm_source=share&utm_medium=member_desktop",
     },
     {
       id: 2,
       src: visa,
       title: "SWE Intern, Aug 2023 - Dec 2023",
-
       url: "https://www.linkedin.com/posts/krisna-colindres_lifeatvisa-visa-softwaredevelopment-activity-7100921058278445056-JNa5?utm_source=share&utm_medium=member_desktop",
     },
     {
       id: 3,
       src: visa,
       title: "SWE Intern, May 2023 - Aug 2023",
-
       url: "https://www.linkedin.com/posts/krisna-colindres_lifeatvisa-sweintern-grateful-activity-7046591701733314560-DheM?utm_source=share&utm_medium=member_desktop",
     },
     {
       id: 4,
       src: shpe,
       title: "Facilitator, Sep 2022 - Present",
-
       url: "https://www.linkedin.com/posts/deannadrako_hispanicheritagemonth-activity-7105559470037970944-zO1w?utm_source=share&utm_medium=member_desktop",
     },
     {
@@ -62,12 +58,12 @@ const Experience = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, url, title, date }) => (
+          {portfolios.map(({ id, src, url, title }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
-                className="w-full h-48 object-cover rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <button className=" px-6 py-3 m-4 duration-200 hover:scale-105">
