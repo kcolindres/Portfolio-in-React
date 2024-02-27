@@ -17,61 +17,73 @@ const Portfolio = () => {
     {
       id: 1,
       src: avlTree,
+      title: "AVL Tree",
       url: "https://github.com/kcolindres/AVL-tree",
     },
     {
       id: 2,
       src: mine,
+      title: "MinewSweeper",
       url: "https://github.com/kcolindres/MineSweeper",
     },
     {
       id: 3,
       src: movie,
+      title: "Movie Finder",
       url: "https://github.com/kcolindres/movierecommender",
     },
     {
       id: 4,
       src: page,
+      title: "Algorithm",
       url: "https://github.com/kcolindres/PageRankAlgorithmn",
     },
     {
       id: 5,
       src: pac,
+      title: "Pac-Man",
       url: "https://github.com/kcolindres/Pacman",
     },
     {
       id: 6,
       src: port,
+      title: "My Portfolio",
       url: "https://github.com/kcolindres/Portfolio-in-React/tree/main/src",
     },
     {
       id: 7,
       src: cache,
+      title: "Simulator",
       url: "https://github.com/kcolindres/Cache-SImulator",
     },
     {
       id: 8,
       src: me,
+      title: "Mental Health",
       url: "https://github.com/kcolindres/ME",
     },
     {
       id: 9,
       src: plc,
+      title: "Compiler",
       url: "https://github.com/kcolindres/codegeneration",
     },
     {
       id: 10,
       src: gator,
+      title: "Social Media",
       url: "https://github.com/Byte-Size-Chefs/NewGatorBites",
     },
     {
       id: 11,
       src: file,
+      title: "File System",
       url: "https://www.youtube.com/watch?v=7-6M2Vq7aSE&ab_channel=KrishnaColindres",
     },
     {
       id: 12,
       src: memory,
+      title: "Memory",
       url: "https://www.youtube.com/watch?v=lh7TFpl-cNY&ab_channel=KrisnaColindres",
     },
   ];
@@ -95,7 +107,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {portfolios.map(({ id, src, url }) => (
+          {portfolios.map(({ id, src, url, title }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -103,9 +115,9 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
+                <div className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  {title}
+                </div>
                 <a href={url} target="_blank" rel="noopener noreferrer">
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                     Code
