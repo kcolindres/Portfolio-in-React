@@ -11,10 +11,12 @@ const Portfolio = () => {
     {
       id: 1,
       src: avlTree,
+      url: "https://github.com/kcolindres/AVL-tree",
     },
     {
       id: 2,
       src: mine,
+      url: "https://github.com/kcolindres/MineSweeper",
     },
     {
       id: 3,
@@ -24,6 +26,7 @@ const Portfolio = () => {
     {
       id: 4,
       src: page,
+      url: "https://github.com/kcolindres/PageRankAlgorithmn",
     },
     {
       id: 5,
