@@ -48,25 +48,25 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full text-white min-h-screen flex justify-center items-center"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 flex flex-col justify-center w-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             My Professional Experience
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {portfolios.map(({ id, src, url, title }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="w-full h-48 object-cover rounded-t-md duration-200 hover:scale-105"
               />
-              <div className="flex items-center justify-center">
-                <button className=" px-6 py-3 m-4 duration-200 hover:scale-105">
+              <div className="p-4">
+                <button className="w-full px-6 py-3 duration-200 hover:scale-105 text-white rounded-b-md">
                   <a href={url} target="_blank" rel="noopener noreferrer">
                     <span className="whitespace-nowrap">{title}</span>
                   </a>
