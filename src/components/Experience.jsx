@@ -71,7 +71,7 @@ const Experience = () => {
                 alt=""
                 className="w-full h-48 object-cover rounded-md duration-200 hover:scale-105"
               />
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex items-center justify-center">
                 <button className="w-full px-4 py-2 m- duration-200 hover:scale-105 overflow-hidden">
                   <a href={url} target="_blank" rel="noopener noreferrer">
                     <span className="whitespace-nowrap">
