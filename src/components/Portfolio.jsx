@@ -31,6 +31,7 @@ const Portfolio = () => {
     {
       id: 5,
       src: pac,
+      url: "https://github.com/kcolindres/Pacman",
     },
     {
       id: 6,

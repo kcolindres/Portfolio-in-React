@@ -47,7 +47,7 @@ const Involvement = () => {
                 style={{ objectFit: "cover", width: "100%", height: "100%" }} // Add inline style for object-fit
               />
               <div className="flex flex-col items-center justify-center">
-                <button className="w-full px-6 py-3 m-4 duration-200 hover:scale-105 overflow-hidden">
+                <button className="w-full px-4 py-2 m-2 duration-200 hover:scale-105 overflow-hidden">
                   <a href={url} target="_blank" rel="noopener noreferrer">
                     <span className="whitespace-nowrap">
                       {title} {date}
