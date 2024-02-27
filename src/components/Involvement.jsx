@@ -37,23 +37,22 @@ const Involvement = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 ">
           {portfolios.map(({ id, src, url, title }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div
+              key={id}
+              className="shadow-md shadow-gray-600 rounded-lg flex flex-col items-center justify-center"
+            >
               <img
                 src={src}
                 alt=""
-                className="w-full h-48 object-cover rounded-md duration-200 hover:scale-105" // Use object-cover
-                style={{ objectFit: "cover", width: "100%", height: "100%" }} // Add inline style for object-fit
+                className="w-full h-48 object-cover rounded-md duration-200 hover:scale-105"
+                style={{ objectFit: "cover", width: "100%", height: "100%" }}
               />
-              <div className="flex flex-col items-center justify-center px-4 py-2">
-                {" "}
-                {/* Add padding to create space */}
-                <button className="w-full px-4 py-2 m-2 duration-200 hover:scale-105 overflow-hidden">
-                  <a href={url} target="_blank" rel="noopener noreferrer">
-                    <span className="whitespace-nowrap">{title}</span>
-                  </a>
-                </button>
+              <div className="px-4 py-2 text-center hover:scale-105">
+                <a href={url} target="_blank" rel="noopener noreferrer">
+                  <span className="whitespace-nowrap">{title}</span>
+                </a>
               </div>
             </div>
           ))}
