@@ -63,13 +63,13 @@ const Experience = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 p-2">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, url, title, date }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg ">
+            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
-                className="w-full h-auto max-h-48 object-cover rounded-md duration-200 hover:scale-105"
+                className="w-full h-48 object-cover rounded-md duration-200 hover:scale-105"
               />
               <div className="flex flex-col items-center justify-center">
                 <button className="w-full px-4 py-2 m-2 duration-200 hover:scale-105 overflow-hidden">
