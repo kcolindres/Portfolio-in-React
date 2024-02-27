@@ -18,6 +18,9 @@ import linux from "../assets/skills/linux.png";
 import assembly from "../assets/skills/assembly.png";
 import Matlab from "../assets/skills/Matlab.png";
 import R from "../assets/skills/R.png";
+import WebdriverIO from "../assets/skills/webdriverio.png";
+import cucumber from "../assets/skills/cucumber.png";
+import figma from "../assets/skills/figma.png";
 
 const Skills = () => {
   const techs = [
@@ -128,6 +131,24 @@ const Skills = () => {
       src: R,
       title: "R",
       style: "shadow-blue-500",
+    },
+    {
+      id: 19,
+      src: WebdriverIO,
+      title: "WebdriverIO",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 20,
+      src: cucumber,
+      title: "Cucumber",
+      style: "shadow-green-500",
+    },
+    {
+      id: 21,
+      src: figma,
+      title: "Figma",
+      style: "shadow-gray-500",
     },
   ];
 
