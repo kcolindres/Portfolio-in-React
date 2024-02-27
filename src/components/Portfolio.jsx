@@ -1,10 +1,16 @@
 import React from "react";
 import avlTree from "../assets/portfolio/avlTree.jpg";
 import mine from "../assets/portfolio/mine.jpg";
-import movie from "../assets/portfolio/movie.jpg";
 import page from "../assets/portfolio/page.jpg";
 import pac from "../assets/portfolio/pac.jpg";
 import port from "../assets/portfolio/port.jpg";
+import movie from "../assets/portfolio/movie.jpg";
+import cache from "../assets/portfolio/cache.png";
+import me from "../assets/portfolio/me.png";
+import plc from "../assets/portfolio/plc.png";
+import gator from "../assets/portfolio/gator.png";
+import file from "../assets/portfolio/file.png";
+import memory from "../assets/portfolio/memory.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -38,12 +44,47 @@ const Portfolio = () => {
       src: port,
       url: "https://github.com/kcolindres/Portfolio-in-React/tree/main/src",
     },
+    {
+      id: 7,
+      src: cache,
+      url: "https://github.com/kcolindres/Cache-SImulator",
+    },
+    {
+      id: 8,
+      src: me,
+      url: "https://github.com/kcolindres/ME",
+    },
+    {
+      id: 9,
+      src: plc,
+      url: "https://github.com/kcolindres/codegeneration",
+    },
+    {
+      id: 10,
+      src: gator,
+      url: "https://github.com/Byte-Size-Chefs/NewGatorBites",
+    },
+    {
+      id: 11,
+      src: file,
+      url: "https://www.youtube.com/watch?v=7-6M2Vq7aSE&ab_channel=KrishnaColindres",
+    },
+    {
+      id: 12,
+      src: memory,
+      url: "https://www.youtube.com/watch?v=lh7TFpl-cNY&ab_channel=KrisnaColindres",
+    },
   ];
 
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white"
+      style={{
+        minHeight: "100vh",
+        paddingTop: "100px",
+        paddingBottom: "100px",
+      }}
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
