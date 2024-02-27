@@ -52,7 +52,7 @@ const Experience = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, title, date }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               {src.endsWith(".mp4") ? (
